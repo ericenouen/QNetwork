@@ -5,5 +5,5 @@ Since the TaxiCab problem only has 500 discrete states and 6 deterministic actio
 
 ### Update Step
 To update this Q-table, we need to 
-
+TaxiCab/Q-update.jpg
 ## Epsilon-Greedy
