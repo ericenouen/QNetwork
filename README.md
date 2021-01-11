@@ -1,2 +1,2 @@
 # QNetwork
-Exploring Q-learning on different problems.
+Exploring the applications of Q-learning on different problems.
