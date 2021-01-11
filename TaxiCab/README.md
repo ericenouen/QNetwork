@@ -20,3 +20,4 @@ The old q value is the starting point of the equation, but it is subtracted by a
 
 ## Performance
 When I allow epsilon to drop all the way to zero, I am able to produce this graph of the 100-timestep average reward, which is producing an average reward of approximately 8 by the end of training.
+![Figure_1](https://user-images.githubusercontent.com/54828661/104234068-de49d780-5420-11eb-9b05-43c4cc3c6f5c.png)
