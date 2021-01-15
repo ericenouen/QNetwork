@@ -45,11 +45,13 @@ For training, many different hyperparameters had to be selected to ensure the ne
 Minimum Epsilon value of 0.10:
 
 ![Figure_1](https://user-images.githubusercontent.com/54828661/104774755-3ba59780-5745-11eb-8416-a66520a6f2a7.png)
+
 ![Figure_2](https://user-images.githubusercontent.com/54828661/104774764-3e07f180-5745-11eb-927f-a3ca34513946.png)
 
 Minimum Epsilon value of 0.05:
 
 ![Figure_3](https://user-images.githubusercontent.com/54828661/104774774-419b7880-5745-11eb-856b-b93e2933b7a3.png)
+
 ![Figure_4](https://user-images.githubusercontent.com/54828661/104774787-452eff80-5745-11eb-9e9e-5ffcdb7020d2.png)
 
 As is clear from the variability of these graphs, DQN as an algorithm can be incredibly unstable and can even catastrophically forget a solution after learning how to solve the environment. This can be remediated by saving the weights for the network when it performs optimally, and by using a small learning rate with a lot of episodes.
