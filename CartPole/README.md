@@ -60,3 +60,8 @@ An example of the Agent playing can be seen below:
 
 
 ![Video](https://user-images.githubusercontent.com/54828661/104775294-1b2a0d00-5746-11eb-9632-169cae7ef628.gif)
+
+## Future
+I definitely want to learn more about stabilization within the RL training paradigm, and I think that would be an interesting avenue to look into. Catastrophically forgetting everything that was learnt by the agent clearly shows a complete lack of understanding on any higher level, and looking into why this happens and what could be done about it would be very helpful for better understanding how to train agents well.
+
+Another thing that I would want to look into more is the effect of discounting on DQN, especially for this environment. The intuitive explanation that is normally used for why any discounting factor is needed at all is usually to provide a sense of urgency for the agent, but in this environment the only goal is to keep the episode going for as long as possible and it is harder to understand what the discount factor is actually doing in practice for this situation. I would want to investigate different discounting factors to see how they impact training.
