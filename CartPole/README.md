@@ -1,6 +1,6 @@
 # CartPole OpenAI Gym implementation.
 
-## CartPole Environment
+## Environment
 The CartPole environment has the following description:
 
         A pole is attached by an un-actuated joint to a cart, which moves along
