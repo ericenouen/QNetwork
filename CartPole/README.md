@@ -31,15 +31,15 @@ There are four state inputs, two hidden layers with eight nodes each, and an out
 
 ## Hyperparameters
 For training, many different hyperparameters had to be selected to ensure the network was able to solve the environment. 
-*50,000 Episodes so the model had the chance to properly learn the function
-*Copying weights every 10,000 steps for slower updates to try to avoid divergence
-*A replay size of 100,000 to make sure any valuable experience wasn't lost
-*A discount factor of .95 to ensure the agent continues to plan for future rewards
-*An initial epsilon value of 0.5 to force the agent to explore at the beginning
-*A minimum epsilon value of 0.05 or 0.10 to allow the agent to act greedily near the end
-*200,000 steps to go from initial epsilon value to minimum epsilon value, to smoothly become more greedy over time
-*A batch size of 256 to allow for smoother updates
-*A learning rate of 0.0001 to try and keep the model from diverging
+* 50,000 Episodes so the model had the chance to properly learn the function
+* Copying weights every 10,000 steps for slower updates to try to avoid divergence
+* A replay size of 100,000 to make sure any valuable experience wasn't lost
+* A discount factor of .95 to ensure the agent continues to plan for future rewards
+* An initial epsilon value of 0.5 to force the agent to explore at the beginning
+* A minimum epsilon value of 0.05 or 0.10 to allow the agent to act greedily near the end
+* 200,000 steps to go from initial epsilon value to minimum epsilon value, to smoothly become more greedy over time
+* A batch size of 256 to allow for smoother updates
+* A learning rate of 0.0001 to try and keep the model from diverging
 
 ## Results
 Minimum Epsilon value of 0.10:
