@@ -61,3 +61,4 @@ if __name__ == '__main__':
     plt.plot(range(episode_count), average_100)
     plt.show()
     env.close()
+ 
