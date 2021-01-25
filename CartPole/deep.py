@@ -61,7 +61,7 @@ if __name__ == '__main__':
                 # Add up the episodic rewards and calculate the 100-episode average
                 rewardList.append(episode_reward)
                 first = max(i-100, 0)
-                average_100.append(sum(rewardList[first:i]) / (i - first + 1))
+                average_100.append(sum(rewardList[first:i]) / (i - first + 1)) # Should be first:i+1
 
                 if average_100[i] >= best_agent:
                     # Save the weights of the network if it performs well enough
