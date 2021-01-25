@@ -49,7 +49,7 @@ if __name__ == '__main__':
                 first = max(i-100, 0)
                 
                 # Store 100-episode averages
-                average_100.append(sum(rewardList[first:i]) / (i - first + 1))
+                average_100.append(sum(rewardList[first:i]) / (i - first + 1)) # Should be first:i+1
 
                 if (i+1) % 25 == 0:
                     # Print the episode number every 25 episodes
